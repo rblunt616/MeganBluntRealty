@@ -1,10 +1,25 @@
-#overlay {
-    /* ... */
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  #overlay-container {
+.overlay{
     position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.overlayContainer{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    max-height: 50%;
+}
+
+  .card1 {
+      position: relative;
   }
+
+.site-footer h5 {
+    color: #92989e;
+}
+
+.site-footer a {
+    color: rgb(190, 143, 55);
+}

@@ -13,8 +13,9 @@
         <title>Megan Blunt Realtor®</title>
     </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning">
+    
+    <div class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom border-warning">
             <a class="navbar-brand" href="#"><img width="150" height="auto" src="images/MR-logo.webp"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -22,81 +23,83 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#">About Megan</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Neighborhoods
+                    Communities
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Midland</a>
+                    <a class="dropdown-item" href="#">Sanford</a>
+                    <a class="dropdown-item" href="#">Saginaw Twp.</a>
+                    <a class="dropdown-item" href="#">St. Charles</a>
+                    <a class="dropdown-item" href="#">Freeland</a>
+                    <a class="dropdown-item" href="#">Bay City</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Other Areas...</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://modernrealty.us/index.php/buy/">Featured Properties</a>
+                    <a class="nav-link" href="https://modernrealty.us/index.php/buy/" target="_blank">Properties</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Contact</a>
                   </li>
+                  <!-- <li class="nav-item">
+                    <a role="button" class="btn btn-link" href="tel:+19895551212"><i class="fa fa-phone"></i>   (989)555-1212</a>
+                  </li> -->
+                  <!-- <li class="nav-item">
+                    <a role="button" class="btn btn-link" href="mailto:MeganB@modernrealty.us"><i class="fa fa-envelope-o"></i>   MeganB@modernrealty.us</a>
+                  </li> -->
               </ul>
+              <span class="navbar-text">
+                <a role="button" class="btn btn-link" href="tel:+19895551212"><i class="fa fa-phone"></i>   (989)555-1212</a>
+                <a role="button" class="btn btn-link" href="mailto:MeganB@modernrealty.us"><i class="fa fa-envelope-o"></i>   MeganB@modernrealty.us</a>
+              </span>
             </div>
           </nav>
-    </header>
+    </div>
     <div class="container-fluid">
-        <div class="row" id="overlay-container">
-            <div class="col-fluid">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/house1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/kitchen.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/house2.jpg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/living-room.jpg" alt="Third slide">
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col" id="overlay">
+        <div class="row">
+            <div class="col-sm-3 overlay">
                 <div class="card" style="width: 18rem;">
                     <div class="card-head">
-                        <img class="card-img-top" src="images/Realtor-Megan-Blunt.jpg">
-                     </div>
+                        <img class="card-img-top" src="images/MeganBluntRealtor.jpg">
+                    </div>
                     <div class="card-body">
                         <h3 class="card-title">Megan Blunt</h3>
                         <p class="card-text">Realtor®</p>
                         <img class="card-img-bottom" src=images/MR-logo.webp><br />
-                       </div>
-                    <div class="card-body border-top border-warning">
-                        <h6 class="card-title">Contact Us</h6>
-                        
-                            <a role="button" class="btn btn-link" href="tel:+19895551212"><i class="fa fa-phone"></i>   (989)555-1212</a><br>
-                            <a role="button" class="btn btn-link" href="mailto:MeganB@modernrealty.us"><i class="fa fa-envelope-o"></i>   MeganB@modernrealty.us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/house1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/kitchen.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/house2.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/living-room.jpg" alt="Third slide">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="row">
-                <br><br>
-            </div>
     </div>
     
-    
+
     <footer class="site-footer">
-        <div class="container-fluid bg-light border-top border-warning">
-            <div class="row">
+        <div class="container-fluid text-gray bg-dark border-top border-warning">
+            <div class="row pt-4">
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -118,11 +121,9 @@
             	    <a role="button" class="btn btn-link" href="mailto:MeganB@modernrealty.us"><i class="fa fa-envelope-o"></i> MeganB@modernrealty.us</a>
                 </div>
             </div>
-        
         </div>
     </footer>
 
-    </footer>
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
