@@ -7,7 +7,8 @@
 
 .overlayContainer{
     position: absolute;
-    left: 0;
+    left: 0px;
+    top: 0px;
     z-index: 1;
     max-height: 50%;
 }
@@ -22,4 +23,13 @@
 
 .site-footer a {
     color: rgb(190, 143, 55);
+}
+
+.card-head h5{
+    color: rgb(190, 143, 55);
+}
+
+.excellence{
+    color: orange;
+    font-weight: bolder;
 }
