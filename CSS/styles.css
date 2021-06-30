@@ -17,7 +17,7 @@
       position: relative;
   }
 
-.site-footer h5 {
+.site-footer h5,h3 {
     color: #92989e;
 }
 
@@ -32,4 +32,12 @@
 .excellence{
     color: orange;
     font-weight: bolder;
+}
+
+.footerCopyright {
+    color:rgb(190, 143, 55);
+}
+
+.footerLink {
+    font-size: 15pt;
 }
